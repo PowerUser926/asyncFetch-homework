@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #ddefef;
+    border-radius: 6px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card p {
+    padding-left: 8px;
+}
+
+.card .characterName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card .location {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card .episodes {
+    height: 100px;
+    padding: 5px 0;
+    border-top: 1px solid gray;
+    overflow: auto;
+}
+
+.card .episodes .episodeInfo {
+    margin: 5px 0;
+}
+
